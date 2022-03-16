@@ -1,9 +1,11 @@
+import FormWrapper from "./components/FormWrapper/FormWrapper";
+
 function App() {
-  return (
-    <div>
-      <h1>sdfsf</h1>
-    </div>
-  );
+    return (
+        <div>
+            <FormWrapper />
+        </div>
+    );
 }
 
 export default App;

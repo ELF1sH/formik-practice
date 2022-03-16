@@ -1,0 +1,92 @@
+$formBorderRadius: 20px;
+
+input, select {
+    background: none;
+    outline: none;
+    border: 2px solid gray;
+    padding: 10px 12px;
+    font-size: 18px;
+    transition: 0.4s border;
+    border-radius: 5px;
+    &:focus {
+        border: 2px solid black;
+    }
+}
+.input--error {
+    border: 2px solid red;
+}
+
+.form {
+    background-color: #fff;
+    width: 850px;
+    border-radius: $formBorderRadius;
+    transition: left .3s ease-out;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    main {
+        padding: 40px 40px 0 40px;
+    }
+    .footer__form {
+        background-color: rebeccapurple;
+        border-radius: 0 0 $formBorderRadius $formBorderRadius;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn__footer {
+            border: none;
+            background: none;
+            margin: 0 30px;
+            color: whitesmoke;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            cursor: pointer;
+            transition: color 0.1s;
+            font-weight: bold;
+            font-size: 14px;
+            &:hover {
+                color: lightgray;
+            }
+        }
+    }
+}
+
+.raw__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    .input-container {
+        flex-grow: 1;
+        position: relative;
+        input, select, textarea {
+            width: 100%;
+        }
+    }
+}
+
+.input-container + .input-container {
+    margin-left: 20px;
+}
+
+.header__form {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #333;
+}
+
+.input--error {
+    border: 2px solid red;
+    position: relative;
+}
+.error-span__input {
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    color: red;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+

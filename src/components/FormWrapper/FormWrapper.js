@@ -3,7 +3,7 @@ import Form1 from "../Forms/Form1";
 import FormProgress from "../FormProgress/FormProgress";
 import {createContext, useState} from "react";
 
-const forms = [<Form1 />, <Form1 />, <Form1 />, <Form1 />, <Form1 />, <Form1 />]
+const forms = [<Form1 />, <Form1 />, <Form1 />, <Form1 />, <Form1 />, <Form1 />, <Form1 />, <Form1 />, <Form1 />]
 export const FormWrapperContext = createContext({
     currentForm: 0,
     totalNumber: forms.length,
@@ -11,7 +11,7 @@ export const FormWrapperContext = createContext({
     slideRight: () => {}
 })
 
-const FormWrapper = (props) => {
+const FormWrapper = () => {
     const [currentForm, setCurrentForm] = useState(0)
 
     const slideLeft = () => {

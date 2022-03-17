@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/formik-practice/static/css/main.db52aeeb.css",
+    "main.js": "/formik-practice/static/js/main.a781d31f.js",
+    "static/media/main-bg.jpg": "/formik-practice/static/media/main-bg.112d45a9697e7e5341f8.jpg",
+    "index.html": "/formik-practice/index.html",
+    "main.db52aeeb.css.map": "/formik-practice/static/css/main.db52aeeb.css.map",
+    "main.a781d31f.js.map": "/formik-practice/static/js/main.a781d31f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db52aeeb.css",
+    "static/js/main.a781d31f.js"
+  ]
+}
